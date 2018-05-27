@@ -1,2 +1,2 @@
 #Insertion Sort o(n2)
-//Sample
+# Sort a given array by using Insertion SOrt Algorithm
