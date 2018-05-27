@@ -7,12 +7,10 @@ def insertionSort(array):
         key = array[j]
         i = j-1
         while i >= 0 and key < array[i]:
-
             array[i+1] = array[i]
             i = i-1
         array[i +1 ] = key
 
 arr = [12,10,2,100,23,1243,3,24,56,765,3,23,]
 insertionSort(arr)
-for i in range(len(arr)):
-    print (arr[i])
+print (arr)
